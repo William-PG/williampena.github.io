@@ -1,0 +1,77 @@
+body{
+background-color: white;
+ width: 70%;
+ height: 50%;
+}
+.fondo{
+    
+    border: 20px  solid rgb(8, 156, 161);
+    border-radius: 20px ;
+    border-left: 1px;
+    border-right: 1px;
+    
+}
+.padre{
+    border: 5px  solid rgb(255, 255, 255);
+    background-color: white;
+}
+
+.llenar{
+    border: 5px  solid rgb(255, 255, 255);
+    background-color: white;
+    display: flex;
+
+}
+.datos-personales{
+    border: 5px  solid rgb(255, 255, 255);
+    background-color: antiquewhite;
+    flex: 1 1 20%;
+}
+.Informacion{
+    border: 5px  solid rgb(255, 255, 255);
+
+    flex: 1 1 80%;
+}
+
+h1{
+    color:rgb(1, 133, 133)
+}
+
+
+.idioma{
+    display: flex;
+    flex-direction: row;
+
+}
+.espa{
+    width: 50%;
+    padding: 0%;
+
+
+}
+#barra-pun{
+    color: #0295A8;
+    font-size: 40px;
+    display: flex;
+    align-items:center ;
+
+}
+.circulos{
+    background: #0295A8;
+    width: 15px;
+    height: 15px;
+    margin-right: 3px;
+    border-radius: 100%;
+}
+p.tit-exp{
+    color: #0295A8;
+    
+}
+.competencias{
+    display: flex;
+    flex-direction: row;
+}
+
+img{
+    border: 5px solid beige;
+}
